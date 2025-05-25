@@ -11,8 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
 import java.util.Scanner;
-
-@SpringBootApplication
+//Desactivar la clase principal de spring
+//@SpringBootApplication
 public class ZonaFitApplication implements CommandLineRunner {
 /*CommandLineRunner
 * Recibimos los argumentos de la linea de comandos si es necesario.*/
