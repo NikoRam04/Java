@@ -19,6 +19,13 @@ public class Cliente {
     private String apellido;
     private Integer membresia;
 
+    public Integer getId(){
+        return this.id;
+    }
+
+    public void setId(Integer Id){
+        this.id = Id;
+    }
     public String getApellido() {
         return apellido;
     }
